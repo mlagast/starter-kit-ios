@@ -6,6 +6,7 @@ target 'StarterKit' do
   use_frameworks!
 
   # Pods for StarterKit
+  pod 'Swinject'
 
   target 'StarterKitTests' do
     inherit! :search_paths
